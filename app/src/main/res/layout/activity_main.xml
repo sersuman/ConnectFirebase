@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <EditText
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etText"/>
+        android:layout_height="120dp"
+        android:src="@drawable/common_google_signin_btn_text_light_normal"
+        android:id="@+id/ivImage"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
